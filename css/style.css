@@ -4,3 +4,80 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header{
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    border: 2px dashed white;
+    margin-bottom: 20px;
+}
+
+/* main */
+
+main{
+    height: calc(100vh - 200px);
+    border: 2px dashed white;
+    overflow-y: auto;
+    color: white;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px dashed white;
+    margin: 0 -10px;
+}
+
+.col{
+    border: 2px dashed white;
+    width: calc(100% / 7);
+    padding: 10px;
+}
+
+.card-image img{
+    display: block;
+    max-width: 100%;
+    
+}
+
+.card-image{
+    position: relative;
+}
+
+.card-text{
+    
+    border: 2px dashed white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3px 3px;
+}
+    
+
+/* footer */
+
+footer{
+    color: white;
+    height: 80px;
+    border: 2px dashed white;
+    margin-top: 20px;
+}
