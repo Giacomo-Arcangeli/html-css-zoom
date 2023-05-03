@@ -112,12 +112,26 @@ footer{
     align-items: center;
     background-color: rgba(100, 100, 100, 0.5);
     color: red;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 .button-icon{
     font-size: 35px;
-    padding-left: 5px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.text{
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.green{
+    color: greenyellow;
 }
 
 .button-text{
